@@ -6,7 +6,8 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "postinstall": "node -e \"console.log('*\\n**\\n***\\n****\\n*****')\""
   },
   "repository": {
     "type": "git",
